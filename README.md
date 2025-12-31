@@ -11,7 +11,7 @@
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-Voice%20AI-F03E56?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**AI-driven storytelling platform for children featuring bilingual support, gamification, and native TTS**
+**nteractive voice-driven storytelling platform with AI-powered conversations and bilingual support**
 
 [Features](#-features) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started)
 
@@ -34,7 +34,6 @@ Neon Tales is an innovative storytelling application that uses AI to generate en
 - 🎙️ **Native TTS**: High-quality text-to-speech with Android native integration
 - 📚 **Persistent Library**: Stories never lost with IndexedDB storage
 - 👶 **Age-Appropriate**: Content filters for 3-5, 6-8, and 9-12 year olds
-- 📱 **Mobile-First**: Optimized for mobile devices and Android WebView
 
 ---
 
@@ -287,7 +286,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Perplexity AI** - For powerful story generation capabilities
+- **Google Gemini & Vertex AI** - For intelligent story generation and reasoning capabilities
+- **ElevenLabs** - For revolutionary conversational AI and natural voice interaction
+- **Google Cloud Platform** - For robust AI infrastructure
 - **Next.js Team** - For the amazing React framework
 - **Tailwind CSS** - For utility-first styling
 - **Three.js** - For stunning 3D graphics
