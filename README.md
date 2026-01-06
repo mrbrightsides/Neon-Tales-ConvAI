@@ -35,6 +35,8 @@ Neon Tales is an innovative storytelling application that uses AI to generate en
 - 📚 **Persistent Library**: Stories never lost with IndexedDB storage
 - 👶 **Age-Appropriate**: Content filters for 3-5, 6-8, and 9-12 year olds
 
+<img width="1898" height="905" alt="Screenshot 2025-12-31 220529" src="https://github.com/user-attachments/assets/676674a2-0209-4888-be18-6d55d740e69e" />
+
 ---
 
 ## ✨ Features
