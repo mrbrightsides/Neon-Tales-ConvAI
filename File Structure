@@ -1,0 +1,77 @@
+📁 src/
+├── 📁 app/
+│   ├── 📁 api/
+│   │   ├── 📁 elevenlabs/
+│   │   │   ├── agent/route.ts               # ElevenLabs AI agent endpoint
+│   │   │   ├── speech-to-text/route.ts      # Voice recognition
+│   │   │   └── text-to-speech/route.ts      # Voice synthesis
+│   │   ├── 📁 gemini/
+│   │   │   └── chat/route.ts                # Google Gemini AI chat
+│   │   ├── 📁 proxy/
+│   │   │   ├── model-loader/route.ts        # 3D model loader
+│   │   │   └── route.ts                     # System proxy
+│   │   ├── health/route.ts                  # Health check
+│   │   ├── logger/route.ts                  # Logging system
+│   │   └── me/route.ts                      # Farcaster auth
+│   ├── globals.css                          # Global styles
+│   ├── layout.tsx                           # Root layout
+│   └── page.tsx                             # Main entry point
+│
+├── 📁 components/
+│   ├── 🎯 Story Components
+│   │   ├── StoryGenerator.tsx               # Generate new stories
+│   │   ├── StoryDisplay.tsx                 # Display story content
+│   │   ├── StoryContinuation.tsx            # Continue story logic
+│   │   ├── StoryScaffolding.tsx             # Story structure
+│   │   ├── StoryLibrary.tsx                 # Saved stories
+│   │   ├── PartNavigator.tsx                # Multi-part navigation
+│   │   └── PartSummaryGenerator.tsx         # Story summaries
+│   ├── 🎤 Voice Components
+│   │   ├── ElevenLabsAgent.tsx              # Voice AI agent
+│   │   ├── TextToSpeech.tsx                 # TTS handler
+│   │   ├── VoiceStoryMode.tsx               # Voice interaction mode
+│   │   └── AudioVisualizer.tsx              # Voice visualization
+│   ├── 👤 User Components
+│   │   ├── CharacterCreator.tsx             # Character customization
+│   │   ├── UserStoryCreator.tsx             # User story input
+│   │   └── AchievementBadges.tsx            # Gamification
+│   ├── 🎨 Visual Components
+│   │   ├── NeonBackground.tsx               # 3D neon effects
+│   │   └── threejs/Lobby.tsx                # 3D lobby scene
+│   ├── 📊 Utility Components
+│   │   └── response-logger.tsx              # Debug logger
+│   ├── 🔗 Farcaster Components
+│   │   ├── FarcasterManifestSigner.tsx
+│   │   ├── FarcasterToastManager.tsx
+│   │   └── FarcasterWrapper.tsx
+│   └── 📁 ui/ (shadcn components)          # 60+ UI components
+│
+├── 📁 hooks/
+│   ├── useTextToSpeech.ts                   # TTS hook
+│   ├── use-mobile.tsx                       # Mobile detection
+│   ├── useAddMiniApp.ts                     # Farcaster mini-app
+│   ├── useIsInFarcaster.ts                  # Farcaster detection
+│   ├── useManifestStatus.ts                 # Manifest status
+│   └── useQuickAuth.tsx                     # Quick authentication
+│
+├── 📁 lib/
+│   ├── achievements.ts                      # Achievement logic
+│   ├── logger.ts                            # Logging utilities
+│   ├── multiPartStory.ts                    # Multi-part story logic
+│   ├── storage.ts                           # Local storage manager
+│   ├── utils.ts                             # General utilities
+│   └── animate-api.ts                       # Animation utilities
+│
+├── 📁 types/
+│   ├── achievement.ts                       # Achievement types
+│   ├── chapter.ts                           # Chapter types
+│   ├── choice.ts                            # Story choice types
+│   ├── story.ts                             # Story types
+│   ├── user.ts                              # User types
+│   ├── voice-session.ts                     # Voice session types
+│   └── index.ts                             # Type exports
+│
+├── 📁 utils/
+│   └── manifestStatus.ts                    # Manifest utilities
+│
+└── middleware.ts                            # Next.js middleware
