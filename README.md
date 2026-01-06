@@ -11,7 +11,7 @@
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-Voice%20AI-magenta?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-**nteractive voice-driven storytelling platform with AI-powered conversations and bilingual support**
+**Interactive voice-driven storytelling platform with AI-powered conversations and bilingual support**
 
 [Features](#-features) • [Tech Stack](#-tech-stack) • [Getting Started](#-getting-started)
 
