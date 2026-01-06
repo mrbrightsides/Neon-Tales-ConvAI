@@ -1,6 +1,6 @@
-# 🌟 Neon Tales - AI-Powered Interactive Storytelling for Children
-
 <div align="center">
+  
+# 🌟 Neon Tales - AI-Powered Interactive Storytelling for Children
 
 ![Three.js](https://img.shields.io/badge/Three.js-3D-000000?style=for-the-badge&logo=three.js)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
@@ -8,7 +8,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-15-lightgrey?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-AI-FF6A00?style=for-the-badge&logo=google)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-Voice%20AI-F03E56?style=for-the-badge)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-Voice%20AI-magenta?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **nteractive voice-driven storytelling platform with AI-powered conversations and bilingual support**
