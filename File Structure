@@ -36,8 +36,7 @@
 │   │   ├── UserStoryCreator.tsx             # User story input
 │   │   └── AchievementBadges.tsx            # Gamification
 │   ├── 🎨 Visual Components
-│   │   ├── NeonBackground.tsx               # 3D neon effects
-│   │   └── threejs/Lobby.tsx                # 3D lobby scene
+│   │   └── NeonBackground.tsx               # 3D neon effects
 │   ├── 📊 Utility Components
 │   │   └── response-logger.tsx              # Debug logger
 │   ├── 🔗 Farcaster Components
